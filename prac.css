@@ -312,13 +312,12 @@ body{
     margin-bottom:50rem;
 }
 #imggird1{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    
     margin-top: 50rem;
 }
 #imggird2{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 50rem;
+
 }
 
 /* TEAMS end */
