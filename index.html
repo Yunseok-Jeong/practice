@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>prac</title>
+    <title>prac</title> 
     <meta charset="utf-8">
-    <link rel="stylesheet" href="pracgrid.css">
+    <link rel="stylesheet" href="mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/cd31680d38.js" crossorigin="anonymous"></script>
+    <script src="visible.js" defer></script>
 </head>
 
 <body>
-    <div id=header>
-        <span>
-            <a href="#">
-            <img src="logo.png" style="margin-left:10rem"></a>
-        </span>
-        <nav>
-            <ul class=headerele>
-                <li><a href="#sec3scroll";>ABOUT</a></li>
+    <div id=mheader>
+        <nav class="navbar">
+                <a href="#">
+                    <img src="logo.png">
+                </a>
+                <a class="navbar_toggleBtn">
+                    <i class="fas fa-bars"></i>
+                </a>
+            <ul class="navbarmenu">
+                <li><a href="#sec3scroll">ABOUT</a></li>
                 <li><a href="#sec6scroll">INVESTMENTS</a></li>
                 <li><a href="#sec8scroll">TEAMS</a></li>
                 <li><a href="#sec9scroll">PORTFOLIO</a></li>
                 <li><a href="#sec11scroll">CONTACT&nbspUS</a></li>
             </ul>
         </nav>
+        
     </div>
 
     <div id="sec1">
@@ -45,7 +50,7 @@
         </div>
     </div>
 
-    <div style="position: relative;">
+    <div style="position: relative;">   
         <div id="sec3scroll" style="position: absolute; top:-124rem;"></div>
         <div id="sec3">
         ABOUT US<br><hr style="width:90rem;" size="0.15vw" color="white" noshade>
