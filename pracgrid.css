@@ -149,53 +149,51 @@ body{
 /* ABOUT US end */
 
 /* INVESTMENT start */
-#sec6{
-    /*
-    background-image:url("triangle.png");
-    background-size: 1000rem;
-    background-repeat:no-repeat;
-    background-position: center 90rem;
-    */
+#msec6{
+    font-size:55rem;
 }
-#sec6 img{
-    width:200rem;
-    display:block;
-    margin:0 auto;
+#msec6 h2{
+    margin:70rem 300rem;
+    padding:10rem;
+    text-align: center;
+    font-size: 90rem;
+    letter-spacing: 10rem;
+    line-height: 115rem;
+    border:solid black 10rem;
 }
-#sec6 h3{
-    font-size:23rem;
+#msec6 #text1{
+    margin:140rem 180rem 100rem 180rem;
+    word-break: keep-all;
 }
-#sec6 #grid1{
-    padding-top:50rem;
-    display:grid;
-    grid-template-columns: 2fr 270rem 2fr;
-    font-size:15rem;
+#msec6 h3{
+    text-align: center;
+    font-size:80rem;
+    margin:100rem 0 30rem 0;
 }
-#sec6 #grid2{
-    padding-top:20rem;
-    display:grid;
-    grid-template-columns: 2fr 0.85fr 2fr;
-    align-items: center;
+#msec6 .grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 700rem);
+    justify-items:center;
+
 }
-    #sec6 #grid2 #text1{
-        padding:60rem 0 0 160rem;
-        font-size:15rem;
-    }
-    #sec6 #grid2 #text2{
-        text-align:center;
-        letter-spacing: 1rem;
-        font-size:35rem;
-        font-weight: bold;
-        padding:130rem 0 30rem 0;
-    }
-    #sec6 #grid2 #text3{
-        padding:40rem 0 0 170rem;
-        font-size:15rem;
-    }
-#sec6 #grid3{
-    display:grid;
-    grid-template-columns: 1.5fr 3fr 3fr 1.5fr;
-    padding-bottom:100rem;
+#msec6 .grid2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+    margin-bottom:100rem;
+    word-break: keep-all;
+}
+#msec6 #text2, #text3{
+    margin-left:20rem;
+}
+ul{
+    -webkit-padding-start: 100rem;
+    line-height: 90rem;
+}
+#msec6 img{
+    width:650rem;
 }
 
 #sec7{
@@ -231,11 +229,11 @@ body{
 /* INVESTMENT end */
 
 /* TEAMS start */
-#sec8{
+#msec8{
     width: 80%;
     margin:0 auto;
 }
-#sec8 h4 {
+#msec8 h4 {
 	display: flex;
 	flex-basis: 100%;
 	align-items: center;
@@ -245,8 +243,8 @@ body{
     letter-spacing: 2rem;
     margin: 60rem 0 0 0;
 }
-#sec8 h4::before,
-#sec8 h4::after {
+#msec8 h4::before,
+#msec8 h4::after {
 	content: "";
 	flex-grow: 1;
 	background: navy;
@@ -255,7 +253,6 @@ body{
 	line-height: 0rem;
 	margin: 0;
 }
-
 .ppimg{
     width:500rem;
     height:640rem;
@@ -291,7 +288,7 @@ body{
         background-position: center center;
         background-size: cover;
     }
-#sec8 figcaption{
+#msec8 figcaption{
     background-color: rgb(253, 253, 253);
     font-size: 50rem;
     text-align: center;
@@ -300,13 +297,13 @@ body{
     margin-bottom:70rem;
     word-break: keep-all;
 }
-#sec8 .container{
+#msec8 .container{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, 650rem);
     justify-items:center;
 }
-#sec8 #container2{
+#msec8 #container2{
     border-top: solid navy 1.5rem;
     display: grid;
     justify-content: center;
