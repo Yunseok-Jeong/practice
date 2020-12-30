@@ -32,18 +32,21 @@ body{
 .navbarmenu a{
     text-decoration: none;
     color:gray;
+    display:block;
+    padding:50rem 0;
 }
 .navbarmenu li{
-    padding:30rem;
     display:inline;
     font-size:70rem;
     font-weight: bold;
+    width:100%;
+    text-align:center;
 }
 .navbar_toggleBtn{
     position:absolute;
-    top:60rem;
-    right:80rem;
+    top:0;right:0;
     font-size:120rem;
+    padding:60rem 140rem 50rem 140rem;
     color:gray;
 }
 #mheader img{

@@ -14,4 +14,5 @@ toggleBtn.addEventListener('click', ()=>{
 });
 menu.addEventListener('click', ()=>{
     menu.style.display='none';
+    a=1;
 });
